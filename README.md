@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Source](https://github.com/MiguelMelo/huddle-landing-page)
-- Live Site URL: [Open](#)
+- Live Site URL: [Open](https://carlos-huddle-landing-page.vercel.app/)
 
 ## My process
 
