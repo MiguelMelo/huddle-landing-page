@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  width: 1144px;
+  margin: 0 auto;
+  padding: 60px 0;
+  min-height: 100vh;
+  background: hsl(257, 40%, 49%) url("../images/bg-desktop.svg") no-repeat
+    center;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+}
+
+.logo {
+  width: 224px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.hero {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.hero .hero-img {
+  flex: 1.75;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1.25;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.content h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: start;
+  color: white;
+}
+
+.content p {
+  text-align: start;
+  font-size: 1rem;
+  color: white;
+  opacity: 0.9;
+}
+
+button {
+  padding: 15px;
+  border-radius: 50px;
+  width: 250px;
+  font-size: 1rem;
+  color: hsl(257, 40%, 49%);
+  border: none;
+  box-shadow: 5px 5px 30px hsl(257, 40%, 49%);
+  transition: all 0.1s ease-in;
+}
+
+button:hover {
+  cursor: pointer;
+  background: hsl(300, 69%, 71%);
+  color: white;
+}
+
+.social-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  list-style-type: none;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in;
+}
+
+.social-links a:hover {
+  color: hsl(300, 69%, 71%);
+  background: white;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 375px;
+    min-height: 100vh;
+    background: hsl(257, 40%, 49%) url("../images/bg-mobile.svg") no-repeat;
+    background-size: cover;
+  }
+
+  .logo {
+    width: 164px;
+    margin-bottom: 60px;
+  }
+
+  .hero {
+    margin-bottom: 60px;
+    flex-direction: column;
+  }
+
+  .hero .hero-img {
+    margin-bottom: 60px;
+  }
+
+  .content {
+    align-items: center;
+  }
+
+  .content h1 {
+    text-align: center;
+  }
+
+  .content p {
+    text-align: center;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    width: 300px;
+  }
+
+  .hero .hero-img {
+    margin-bottom: 40px;
+  }
+
+  .content h1 {
+    font-size: 1.5rem;
+  }
+}
