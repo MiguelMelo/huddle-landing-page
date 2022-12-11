@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Source](https://your-solution-url.com)
-- Live Site URL: [Open](https://your-live-site-url.com)
+- Solution URL: [Github Source](https://github.com/MiguelMelo/huddle-landing-page)
+- Live Site URL: [Open](#)
 
 ## My process
 
